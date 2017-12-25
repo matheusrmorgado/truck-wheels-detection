@@ -32,7 +32,7 @@ Após esse processo, será gerado o arquivo [video-detection.avi](https://github
 
 Nesse programa foi utilizada a biblioteca cekeikon.h para que fosse possível aplicar funções do Cekeikon e do OpenCV. Para fazer download dessa biblioteca é necessário acessar: http://www.lps.usp.br/hae/software/cekeikon5.html.
 
-Para a resolução do problema proposto, foi desenvolvido o programa **wheels.cpp** que receber um vídeo, processa imagens de rodas grandes e gera um novo vídeo mostrando a detecção de rodas. Para explicar melhor como é realizado o processamento de imagens das funções do OpenCV utilizadas nesse programa, foram desenvolvidos alguns subprogramas para estudo.
+Para a resolução do problema proposto, foi desenvolvido o programa **wheels.cpp** que recebe um vídeo, processa imagens de rodas grandes e gera um novo vídeo mostrando a detecção de rodas. Para explicar melhor como é realizado o processamento de imagens das funções do OpenCV utilizadas nesse programa, foram desenvolvidos alguns subprogramas para estudo.
 
 ### Extração de quadros
 
