@@ -24,7 +24,7 @@ Para o completo processamento de imagens, deve-se digitar no prompt o seguinte c
 
 Após esse processo, será gerado o arquivo [video-detection.avi](https://github.com/matheusrmorgado/Truck-Wheels-Detection/blob/master/examples/video-detection.avi) com a detecção das rodas de caminhão.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/matheusrmorgado/Truck-Wheels-Detection/blob/master/examples/operation.png">
 </p>
 
