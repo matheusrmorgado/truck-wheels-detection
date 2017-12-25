@@ -4,8 +4,6 @@
 
 O objetivo desse exercício programa consiste em ler um vídeo que mostra a movimentação de veículos numa praça de pedágio, e a partir dele, gerar um outro vídeo onde os pneus de veículos grandes são detectados e marcados com círculos amarelos. 
 
-Dividindo a resolução do problema em diversos sub-programas, foi possível obter um vídeo que detecta de forma razoável rodas de veículos grandes.
-
 Para ler a descrição completa do problema, acesse: [Enunciado.pdf](https://github.com/matheusrmorgado/Truck-Wheels-Detection/blob/master/Enunciado.pdf).
 
 ## Operação
