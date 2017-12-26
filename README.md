@@ -46,7 +46,7 @@ O programa **extrai.cpp** teve como objetivo ler um vídeo e extrair dele alguns
 
 ### Detecção de arestas
 
-Após a detecção de quadros, foi implementado o primeiro processamento de imagem. Por meio do algoritmo de Canny, o programa canny.cpp recebe o quadro *quad450.png* do vídeo e detecta as suas arestas gerando o arquivo *quad450-canny.png*.
+Após a detecção de quadros, foi implementado o primeiro processamento de imagem. Por meio do algoritmo de Canny, o programa **canny.cpp** recebe o quadro *quad450.png* do vídeo e detecta as suas arestas gerando o arquivo *quad450-canny.png*.
 
 <p align="center">
   <img src="https://github.com/matheusrmorgado/Truck-Wheels-Detection/blob/master/examples/quad450-canny.png">
@@ -54,13 +54,13 @@ Após a detecção de quadros, foi implementado o primeiro processamento de imag
 
 ### Detecção de círculos
 
-Após a detecção de arestas, foi implementado um programa que recebe a imagem *quad450-canny-inv.png* em que as arestas já tenham sido detectadas e detecta círculos por meio da transformada de Hough gerando o arquivo *quad450-canny-inv-h110.png*.
+Após a detecção de arestas, foi implementado o programa **houghcir.cpp** que recebe a imagem *quad450-canny-inv.png* em que as arestas já tenham sido detectadas e detecta círculos por meio da transformada de Hough gerando o arquivo *quad450-canny-inv-h110.png*.
 
 <p align="center">
   <img src="https://github.com/matheusrmorgado/Truck-Wheels-Detection/blob/master/examples/quad450-canny-inv-h110.png">
 </p>
 
-Para o funcionamento dessa detecção de círculos, foi necessário utilizar primeiramente um programa que inverte preto para branco, pois a função que realiza a tranformada de Hough exige como parâmetro de entrada uma imagem com fundo branco, nesse caso foi gerado o arquivo *quad450-canny-inv.png*.
+Para o funcionamento dessa detecção de círculos, foi necessário utilizar primeiramente o programa **inverte.cpp** que inverte preto para branco, pois a função que realiza a tranformada de Hough exige como parâmetro de entrada uma imagem com fundo branco, nesse caso foi gerado o arquivo *quad450-canny-inv.png*.
 
 <p align="center">
   <img src="https://github.com/matheusrmorgado/Truck-Wheels-Detection/blob/master/examples/quad450-canny-inv.png">
@@ -70,7 +70,7 @@ Para o funcionamento dessa detecção de círculos, foi necessário utilizar pri
 
 A fim de acelerar a detecção de círculos em imagens, foi implementado o cálculo do gradiente. Por meio da direção e magnitude do gradiente de uma imagem é possível calcular a transformada de Hough de forma mais eficiente.
 
-Para isso, foi desenvolvido um programa que recebe o quadro *quad450.png* e calcula o gradiente. Como a imagem de entrada é colorida, para otimizar o cálculo do gradiente converteu-se a imagem colorida em três imagens em níveis de cinza, calculou-se o gradiente de cada componente de cor e escolheu-se para cada pixel, o gradiente de maior magnitude. O resultado otimizado foi o arquivo *quad450-grad-otimizado.png*.
+Para isso, foi desenvolvido o programa **gradiente.cpp** que recebe o quadro *quad450.png* e calcula o gradiente. Como a imagem de entrada é colorida, para otimizar o cálculo do gradiente converteu-se a imagem colorida em três imagens em níveis de cinza, calculou-se o gradiente de cada componente de cor e escolheu-se para cada pixel, o gradiente de maior magnitude. O resultado otimizado foi o arquivo *quad450-grad-otimizado.png*.
 
 <p align="center">
   <img src="https://github.com/matheusrmorgado/Truck-Wheels-Detection/blob/master/examples/quad450-grad-otimizado.png">
