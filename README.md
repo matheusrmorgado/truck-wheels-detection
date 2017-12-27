@@ -1,6 +1,6 @@
 # Detecção de rodas de caminhão
 
-## Descrição do problema
+## Descrição do problema 
 
 O objetivo desse exercício programa consiste em ler um vídeo que mostra a movimentação de veículos numa praça de pedágio, e a partir dele, gerar um outro vídeo onde os pneus de veículos grandes são detectados e marcados com círculos amarelos. 
 
