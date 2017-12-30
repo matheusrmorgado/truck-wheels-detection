@@ -86,6 +86,10 @@ Após o estudo das diversas funções utilizadas pelo OpenCV, foi desenvolvido o
 
 ## Referências
 
+* Transformada de Hough: http://www.lps.usp.br/hae/apostila/hough.pdf
+
+* Detecção de cantos e arestas: http://www.lps.usp.br/hae/apostila/corner.pdf
+
 * Hough Circle Transform: http://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/hough_circle/hough_circle.html
 
 * Feature detection: http://docs.opencv.org/2.4/modules/imgproc/doc/feature_detection.html
@@ -93,10 +97,6 @@ Após o estudo das diversas funções utilizadas pelo OpenCV, foi desenvolvido o
 * Reading and Writing Images and Video: http://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html
 
 * OpenCV Documentation: https://github.com/opencv/opencv
-
-* Detecção de cantos e arestas: http://www.lps.usp.br/hae/apostila/corner.pdf
-
-* Transformada de Hough: http://www.lps.usp.br/hae/apostila/hough.pdf
 
 ## Direitos autorais
 
